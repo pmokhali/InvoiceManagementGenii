@@ -2128,6 +2128,7 @@
     <Content Include="styles\imgs\wordpress-invoices.jpg" />
     <Content Include="styles\js\pageControl.js" />
     <Content Include="UI\SignUp.aspx" />
+    <Content Include="UI\UserLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2145,6 +2146,13 @@
     </Compile>
     <Compile Include="UI\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
