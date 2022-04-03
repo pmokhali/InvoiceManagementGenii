@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ManagerLogin.aspx" />
     <Content Include="styles\bootstrap\css\bootstrap.min.css" />
     <Content Include="styles\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="styles\bootstrap\js\bootstrap.min.js" />
@@ -2133,6 +2134,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ManagerLogin.aspx.cs">
+      <DependentUpon>ManagerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagerLogin.aspx.designer.cs">
+      <DependentUpon>ManagerLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\AdminLogin.aspx.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
